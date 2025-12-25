@@ -1,0 +1,17 @@
+
+/* Gallery Load More / Show Less Buttons */
+#load-more-gallery,
+#show-less-gallery {
+  background: transparent;
+  color: #e6620c;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  border: 2px solid #e6620c; /* Enforce border style from .book-a-table-btn if needed, or rely on class */
+}
+
+#load-more-gallery:hover,
+#show-less-gallery:hover {
+  background: #e6620c;
+  color: white;
+}
